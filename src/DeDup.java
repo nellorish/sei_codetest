@@ -105,19 +105,13 @@ public class DeDup {
 
     private static void logMe(String parameter){
 
-
-
-        if(logger.isDebugEnabled()){
+      if(logger.isDebugEnabled()){
             logger.debug("This is debug : " + parameter);
         }
 
         if(logger.isInfoEnabled()){
             logger.info("This is info : " + parameter);
         }
-
-
-
-
     }
 
 
@@ -128,11 +122,6 @@ public class DeDup {
         logMe("Integer Array remove duplicates with HashSet Order not preserved "+Arrays.toString(removeDuplicatesWithHashSet(randomIntegers)));
         logMe("Integer Array using LinkedHashSet to preserve order and remove Duplicates"+Arrays.toString(removeDuplicatesAndPreserveOrdertWithLinkedHashSet(randomIntegers)));
 
-
-//        System.out.println(" Actual Random Array of integers :" +Arrays.toString(randomIntegers));
-//        System.out.println("Integer Array with Java Stream Preserve Order and Filter Duplicates "+Arrays.toString(removeDuplicatesWithArrayStream(randomIntegers)));
-//        System.out.println("Integer Array remove duplicates with HashSet Order not preserved "+Arrays.toString(removeDuplicatesWithHashSet(randomIntegers)));
-//        System.out.println("Integer Array using LinkedHashSet to preserve order and remove Duplicates "+Arrays.toString(removeDuplicatesAndPreserveOrdertWithLinkedHashSet(randomIntegers)));
 //
 
 
