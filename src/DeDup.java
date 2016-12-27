@@ -37,7 +37,7 @@ public class DeDup {
             return Arrays.stream(inputArray).distinct().toArray();
         } else new DeDupException("Array is Null");
 
-        return inputArray;
+        return null;
     }
 
       /*
