@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1860c16-41cc-4c19-bee7-a7e19a613857" name="Default" comment="" />
+    <list default="true" id="d1860c16-41cc-4c19-bee7-a7e19a613857" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log4j.properties" afterPath="$PROJECT_DIR$/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeDup.java" afterPath="$PROJECT_DIR$/src/DeDup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DeDupException.java" afterPath="$PROJECT_DIR$/src/DeDupException.java" />
+    </list>
     <ignored path="sei_codetest.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,13 +43,21 @@
       <file leaf-file-name="DeDup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DeDup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+            <state relative-caret-position="178">
+              <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1967#1976#0" expanded="true" />
-                <element signature="e#2994#3003#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/apache-log4j-extras-1.2.17.jar!/org/apache/log4j/Category.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,8 +65,8 @@
       <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="45">
+              <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -63,49 +75,19 @@
       <file leaf-file-name="DeDupException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DeDupException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding>
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#183#184#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="165">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Collectors.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <file leaf-file-name="RuntimeException.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2535">
-              <caret line="235" column="77" selection-start-line="235" selection-start-column="77" selection-end-line="235" selection-end-column="77" />
-              <folding>
-                <element signature="e#0#73414#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#5034#5035#0" expanded="false" />
-                <element signature="e#5067#5068#0" expanded="false" />
-                <element signature="e#6418#6419#0" expanded="false" />
-                <element signature="e#6460#6461#0" expanded="false" />
-                <element signature="e#6519#6520#0" expanded="false" />
-                <element signature="e#6558#6559#0" expanded="false" />
-                <element signature="e#6623#6624#0" expanded="false" />
-                <element signature="e#6662#6663#0" expanded="false" />
-                <element signature="e#6724#6725#0" expanded="false" />
-                <element signature="e#6763#6764#0" expanded="false" />
-                <element signature="e#6838#6839#0" expanded="false" />
-                <element signature="e#6884#6885#0" expanded="false" />
-                <element signature="e#16803#16804#0" expanded="false" />
-                <element signature="e#16858#16859#0" expanded="false" />
-                <element signature="e#17475#17476#0" expanded="false" />
-                <element signature="e#17540#17541#0" expanded="false" />
-                <element signature="e#18157#18158#0" expanded="false" />
-                <element signature="e#18222#18223#0" expanded="false" />
-                <element signature="e#27827#27828#0" expanded="false" />
-                <element signature="e#27887#27888#0" expanded="false" />
-                <element signature="e#33990#33991#0" expanded="false" />
-                <element signature="e#34045#34046#0" expanded="false" />
-                <element signature="e#73331#73332#0" expanded="false" />
-                <element signature="e#73379#73380#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="238">
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,6 +168,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -196,6 +181,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/ArrayTest.java" />
         <option value="$PROJECT_DIR$/src/DeDupException.java" />
+        <option value="$PROJECT_DIR$/lib/apache-log4j-extras-1.2.17.jar!/org/apache/log4j/Category.class" />
         <option value="$PROJECT_DIR$/src/DeDup.java" />
         <option value="$PROJECT_DIR$/log4j.properties" />
       </list>
@@ -220,7 +206,7 @@
     <option name="width" value="2021" />
     <option name="height" value="1186" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -801,12 +787,12 @@
       <updated>1482359995710</updated>
       <workItem from="1482360000162" duration="6924000" />
       <workItem from="1482707230233" duration="1195000" />
-      <workItem from="1482766838656" duration="12783000" />
+      <workItem from="1482766838656" duration="14284000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20902000" />
+    <option name="totallyTimeSpent" value="22403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="427" y="124" width="2021" height="1186" extended-state="0" />
@@ -895,34 +881,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
           <caret line="235" column="77" selection-start-line="235" selection-start-column="77" selection-end-line="235" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#73414#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5034#5035#0" expanded="false" />
-            <element signature="e#5067#5068#0" expanded="false" />
-            <element signature="e#6418#6419#0" expanded="false" />
-            <element signature="e#6460#6461#0" expanded="false" />
-            <element signature="e#6519#6520#0" expanded="false" />
-            <element signature="e#6558#6559#0" expanded="false" />
-            <element signature="e#6623#6624#0" expanded="false" />
-            <element signature="e#6662#6663#0" expanded="false" />
-            <element signature="e#6724#6725#0" expanded="false" />
-            <element signature="e#6763#6764#0" expanded="false" />
-            <element signature="e#6838#6839#0" expanded="false" />
-            <element signature="e#6884#6885#0" expanded="false" />
-            <element signature="e#16803#16804#0" expanded="false" />
-            <element signature="e#16858#16859#0" expanded="false" />
-            <element signature="e#17475#17476#0" expanded="false" />
-            <element signature="e#17540#17541#0" expanded="false" />
-            <element signature="e#18157#18158#0" expanded="false" />
-            <element signature="e#18222#18223#0" expanded="false" />
-            <element signature="e#27827#27828#0" expanded="false" />
-            <element signature="e#27887#27888#0" expanded="false" />
-            <element signature="e#33990#33991#0" expanded="false" />
-            <element signature="e#34045#34046#0" expanded="false" />
-            <element signature="e#73331#73332#0" expanded="false" />
-            <element signature="e#73379#73380#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1016,41 +975,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2535">
-          <caret line="235" column="77" selection-start-line="235" selection-start-column="77" selection-end-line="235" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#73414#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#5034#5035#0" expanded="false" />
-            <element signature="e#5067#5068#0" expanded="false" />
-            <element signature="e#6418#6419#0" expanded="false" />
-            <element signature="e#6460#6461#0" expanded="false" />
-            <element signature="e#6519#6520#0" expanded="false" />
-            <element signature="e#6558#6559#0" expanded="false" />
-            <element signature="e#6623#6624#0" expanded="false" />
-            <element signature="e#6662#6663#0" expanded="false" />
-            <element signature="e#6724#6725#0" expanded="false" />
-            <element signature="e#6763#6764#0" expanded="false" />
-            <element signature="e#6838#6839#0" expanded="false" />
-            <element signature="e#6884#6885#0" expanded="false" />
-            <element signature="e#16803#16804#0" expanded="false" />
-            <element signature="e#16858#16859#0" expanded="false" />
-            <element signature="e#17475#17476#0" expanded="false" />
-            <element signature="e#17540#17541#0" expanded="false" />
-            <element signature="e#18157#18158#0" expanded="false" />
-            <element signature="e#18222#18223#0" expanded="false" />
-            <element signature="e#27827#27828#0" expanded="false" />
-            <element signature="e#27887#27888#0" expanded="false" />
-            <element signature="e#33990#33991#0" expanded="false" />
-            <element signature="e#34045#34046#0" expanded="false" />
-            <element signature="e#73331#73332#0" expanded="false" />
-            <element signature="e#73379#73380#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18525">
@@ -1124,33 +1048,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/stream/Collectors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="235" column="77" selection-start-line="235" selection-start-column="77" selection-end-line="235" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DeDupException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#183#184#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/apache-log4j-extras-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="31" column="42" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DeDup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="107" column="57" selection-start-line="107" selection-start-column="57" selection-end-line="107" selection-end-column="57" />
+        <state relative-caret-position="178">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1967#1976#0" expanded="true" />
-            <element signature="e#2994#3003#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="45">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,6 @@
+import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
-import org.apache.log4j.spi.LoggerFactory;
+
 
 import java.util.*;
 
@@ -54,7 +55,7 @@ public class DeDup {
         if (inputArray != null) {
             if (inputArray.length == 1 || inputArray.length == 0)
                 return inputArray;
-            Set<Integer> integerHashSet = new HashSet<Integer>();
+            Set<Integer> integerHashSet = new HashSet<>();
             for (int i = 0; i < inputArray.length; i++) {
                 integerHashSet.add(inputArray[i]);
             }
@@ -85,7 +86,7 @@ public class DeDup {
             if (inputArray != null) {
                 if (inputArray.length == 1 || inputArray.length == 0)
                     return inputArray;
-                Set<Integer> integerHashSet = new LinkedHashSet<Integer>();
+                Set<Integer> integerHashSet = new LinkedHashSet<>();
                 for (int i = 0; i < inputArray.length; i++) {
                     integerHashSet.add(inputArray[i]);
                 }
@@ -104,6 +105,8 @@ public class DeDup {
 
     private static void logMe(String parameter){
 
+
+
         if(logger.isDebugEnabled()){
             logger.debug("This is debug : " + parameter);
         }
@@ -111,6 +114,9 @@ public class DeDup {
         if(logger.isInfoEnabled()){
             logger.info("This is info : " + parameter);
         }
+
+
+
 
     }
 
@@ -120,14 +126,14 @@ public class DeDup {
 
         logMe("Integer Array with Java Stream Preserve Order and Filter Duplicates "+Arrays.toString(removeDuplicatesWithArrayStream(randomIntegers)));
         logMe("Integer Array remove duplicates with HashSet Order not preserved "+Arrays.toString(removeDuplicatesWithHashSet(randomIntegers)));
-        logMe("\"Integer Array using LinkedHashSet to preserve order and remove Duplicates \"+Arrays.toString(removeDuplicatesAndPreserveOrdertWithLinkedHashSet(randomIntegers))");
+        logMe("Integer Array using LinkedHashSet to preserve order and remove Duplicates"+Arrays.toString(removeDuplicatesAndPreserveOrdertWithLinkedHashSet(randomIntegers)));
 
 
-        System.out.println(" Actual Random Array of integers :" +Arrays.toString(randomIntegers));
-        System.out.println("Integer Array with Java Stream Preserve Order and Filter Duplicates "+Arrays.toString(removeDuplicatesWithArrayStream(randomIntegers)));
-        System.out.println("Integer Array remove duplicates with HashSet Order not preserved "+Arrays.toString(removeDuplicatesWithHashSet(randomIntegers)));
-        System.out.println("Integer Array using LinkedHashSet to preserve order and remove Duplicates "+Arrays.toString(removeDuplicatesAndPreserveOrdertWithLinkedHashSet(randomIntegers)));
-
+//        System.out.println(" Actual Random Array of integers :" +Arrays.toString(randomIntegers));
+//        System.out.println("Integer Array with Java Stream Preserve Order and Filter Duplicates "+Arrays.toString(removeDuplicatesWithArrayStream(randomIntegers)));
+//        System.out.println("Integer Array remove duplicates with HashSet Order not preserved "+Arrays.toString(removeDuplicatesWithHashSet(randomIntegers)));
+//        System.out.println("Integer Array using LinkedHashSet to preserve order and remove Duplicates "+Arrays.toString(removeDuplicatesAndPreserveOrdertWithLinkedHashSet(randomIntegers)));
+//
 
 
 
