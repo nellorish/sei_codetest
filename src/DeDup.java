@@ -24,7 +24,7 @@ public class DeDup {
    3. Streams don't have storage for values; they carry values from a source through a pipeline of computational steps.
    4. Preserve the input array order
   Negatives :
-    1. Only Complies on Java 8
+    1. Only Compiles on Java 8
     */
 
     public static int[] removeDuplicatesWithArrayStream(int[] inputArray) {
